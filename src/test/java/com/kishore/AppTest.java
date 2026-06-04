@@ -15,7 +15,7 @@ public class AppTest {
     @Test
     public void testAddition() {
         int result = 2 + 3;
-        assertEquals("2 + 3 = 5 avvali", 5, result);
+        assertEquals(10, result);
         System.out.println("Test 2 Pass: Addition correct");
     }
 }
