@@ -16,7 +16,7 @@ pipeline {
         stage('Build & Test') {
             steps {
                 echo 'Maven tho clean package run chestunna...'
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
 
